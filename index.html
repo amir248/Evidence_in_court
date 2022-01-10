@@ -3,8 +3,134 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel="icon" href="rainbow.svg" type="image/svg+xml">
+    <style>
+      *{
+        margin:0;
+      }
+      body{
+        background:linear-gradient(red,orange,yellow,green,lightblue,blue,violet);
+        min-height;:100vh;
+        font-size:20px;
+      }
+      main{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        max-width:100%;
+        background:rgba(255,255,255,0.7);
+      }
+      article{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        max-width:100%;
+        flex-direction:column;
+      }
+      #ono{
+        float:right;
+        width:300px;
+        max-width:100%;
+      }
+      #Ooo{
+        float:right;
+        width:300px;
+        max-width:100%;
+      }
+      #vot{
+        float:left;
+        width:200px;
+        max-width:100%;
+      }
+      #bro{
+        float:right;
+        width:300px;
+        max-width:100%;
+      }
+      #man{
+        float:right;
+        width:300px;
+        max-width:100%;
+      }
+      @media(max-width: 500px){
+        #ono{
+          width:100%;
+        }
+        #Ooo{
+          width:100%;
+        }
+        #vot{
+          width:100%;
+        }
+        #bro{
+          width:100%;
+        }
+        #man{
+          width:100%;
+        }
+      }
+      #sectionO_o{
+        display:none;
+      }
+
+      </style>
   </head>
   <body>
+    <main>
+      <article>
+        <h1>А Ваш чернокожий бэдеэсемщик не такой уж и ровный пацанчик!</h1>
+        <div ><img src='images/smooth-guy.jpg' alt='тот самый чернокожий коммунистический бэдеэсемщик'  id='ono'>
+        <p>Как хорошо представлен “чернокожий коммунистический бэдесемщик”: 1 группа крови как у орангутанга положительный резус фактор! Он силен, груб и невменяем! Его черепная коробка могущественна и непробиваемая как тяжелая броня танка. В которую не попадает ни какая входящая информация. Все слова и напутствия отскакивают как резиновые. И ему все равно что говорят другие. Он жарит молоденьких парней. Как настоящий ровный пацанчик. И гласит поговорка: “45 - пацанчик ровный опять”. Ровному пацанчику нету дела до ваших мыслительных процессов! О_о нЕт! Ровный пацанчик выпьет пивка, чтобы его крошечный мозг стал еще меньше. И помчится делать именно то что он делает!</p></div>
+        <div ><img src='images/guy.jpg' alt='Гопник' id='vot'><p>Но кто бы знал, что в потоённом ёнтернете можно обнаружить!? Нечто компрометирующее! Трудно утверждать на все сто процентов, но 99% очевидны.</p></div>
 
+        <div style='background:yellow; font-size:15px; text-align:center;' id='evidence'><span style='font-size:35px;'>Посмотреть улики!</span><br><span style="font-size:18px;">Осторожно, увиденное может Вас шокировать, нанести непопровимый вред психическому здоровьюи. Данный кадр содержит непристойные и оскорбляющие сцены неизвестно чего! Неизвестно зачем! ... и ничего не известно, кроме одного!<span style='font-size:37px; color:green;'><br>>-<</span> </span><span style='color:red;font-size:37px;'>Улики в Суд!</span><span style="color:blue;">Обнаружены!</span></div>
+        <picture>
+          <!-- <img src='#' atl='evidence'> -->
+        </picture>
+        <script>
+          let numberClick=+0;
+          document.querySelector('#evidence').addEventListener('click', ()=>{
+            numberClick++;
+            document.querySelector('#sectionO_o').style.cssText=`
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            flex-direction:column;
+            `;
+            console.log(numberClick);
+            if(numberClick==1){
+            console.log('click');
+          let iMag=document.createElement('img');
+          iMag.src='images/bd3.jpg';
+          iMag.setAttribute('id', 'ok');
+          iMag.style.cssText=`width:900px; max-width:100%;`
+          let my_imag = document.querySelector('picture');
+          // document.body.insertBefore(my_imag, iMag);
+          document.querySelector('picture').append(iMag);
+          console.log('iMag');
+          }else if(numberClick==2){
+            numberClick=0;
+            document.querySelector('#ok').remove();
+          }else{
+            console.log('else');
+          }
+          });
+        </script>
+        <div id="sectionO_o">
+          <h2>Ооо па, на!</h2>
+          <p>А не Ваш ли это чернокожий коммунистический бэдесемщик наяривает шалавин чебурек? О_о Не хочу Вас расстраивать “ровные пацанчики”, но Ваш ровный бедесемщик(чернокожий и коммунистический(c 1+ гр.крови)), не такой уже и ровный! Конечно сходства очевидны только на 99% и у вас есть еще 1% отстоять свои убеждения в суде. Можете попробовать! Смелей если духу хватит! {O_o}</p>
+          <div><img src='images/image.jpeg' alt='Ничего не понять' id='Ooo'>
+          <p>Остальные же могут довольствоваться 99% того что это именно то самое что есть на самом деле! О_о невероятно но факт! Самой остросюжетной, апокалиптической, форсмажорной катастрофы! …авиационной! …с участием инопланетян. О_о</p></div>
+          <picture>
+            <img src='images/pro-korni.jpg' alt='ровный пацинчик говорит четко!' id="bro">
+          </picture>
+          <p>И комментировать эту “ситуацию можно бесконечно. И многонациональное товарищество, оберегает голубую кровь как нечто дорогущее. Похоже что не остаётся другого выхода, как переодеться в девушку и провозгласить себя лесбиянкой! О_о!</p>
+          <picture>
+            <img src='images/ault.jpg' alt='теперь я лесбиянка!' id='man'>
+          </picture>
+        </div>
+      </article>
+    </main>
   </body>
 </html>
